@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp
+"board_test\startup_stm32f446xx.o"
+"board_test\main.o"
+"board_test\gpio.o"
+"board_test\stm32f4xx_it.o"
+"board_test\stm32f4xx_hal_msp.o"
+"board_test\stm32f4xx_hal_tim.o"
+"board_test\stm32f4xx_hal_tim_ex.o"
+"board_test\stm32f4xx_hal_rcc.o"
+"board_test\stm32f4xx_hal_rcc_ex.o"
+"board_test\stm32f4xx_hal_flash.o"
+"board_test\stm32f4xx_hal_flash_ex.o"
+"board_test\stm32f4xx_hal_flash_ramfunc.o"
+"board_test\stm32f4xx_hal_gpio.o"
+"board_test\stm32f4xx_hal_dma_ex.o"
+"board_test\stm32f4xx_hal_dma.o"
+"board_test\stm32f4xx_hal_pwr.o"
+"board_test\stm32f4xx_hal_pwr_ex.o"
+"board_test\stm32f4xx_hal_cortex.o"
+"board_test\stm32f4xx_hal.o"
+"board_test\stm32f4xx_hal_exti.o"
+"board_test\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "Board_Test\Board_Test.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Board_Test.map" -o Board_Test\Board_Test.axf
