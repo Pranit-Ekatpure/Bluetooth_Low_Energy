@@ -17,7 +17,7 @@ void SystemClock_Config(void);
 
 
 /**
-	* Function:		The application entry point.
+  * Function:		The application entry point.
   * Retval:			int
   */
 int main(void)
@@ -46,8 +46,8 @@ int main(void)
 }
 
 /**
-	* Functon: 	System Clock Configuration
-	* Retval: 	None
+  * Functon: 	System Clock Configuration
+  * Retval: 	None
   */
 void SystemClock_Config(void)
 {
@@ -89,13 +89,9 @@ void SystemClock_Config(void)
   }
 }
 
-/* USER CODE BEGIN 4 */
-
-/* USER CODE END 4 */
-
 /**
-	* Function:  	This function is executed in case of error occurrence.
-	* Retval: 		None
+  * Function:  	This function is executed in case of error occurrence.
+  * Retval: 		None
   */
 void Error_Handler(void)
 {
