@@ -19,10 +19,6 @@
   </tr>
  </table>
 
-  <table>
-  <tr>
-    <td><img src="Screenshots/TeraTerm.jpg" width=600 height=550></td>
-  </tr>
- </table>
+ <img src = "Screenshots/TeraTerm.jpg" width = 600 height = 550>
 
 
