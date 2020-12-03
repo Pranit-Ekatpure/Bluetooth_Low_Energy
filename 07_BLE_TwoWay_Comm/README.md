@@ -21,6 +21,6 @@
 
 <br />
 <br />
- <img src = "Screenshots/Capture.png" width = 600 height = 550>
+ <img src = "Screenshots/Capture.jpeg" width = 600 height = 550>
 
 
