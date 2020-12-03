@@ -19,6 +19,8 @@
   </tr>
  </table>
 
+<br />
+<br />
  <img src = "Screenshots/TeraTerm.jpg" width = 600 height = 550>
 
 
